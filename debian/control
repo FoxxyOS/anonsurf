@@ -1,0 +1,19 @@
+Source: anonsurf
+Section: foxxy
+Priority: optional
+Maintainer: Foxxy Team <foxxy-devel@lists.foxxysec.org>
+Uploaders: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>,
+           Lisetta "Sheireen" Ferrero <sheireen@frozenbox.org>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 10)
+Build-Depends-Indep: pkg-config
+Homepage: http://www.foxxysec.org/
+
+Package: anonsurf
+Architecture: all
+Priority: optional
+Depends: bash, iptables, tor
+Recommends: libnotify-bin, i2p, freenet, onioncircuits, connect-proxy, onionshare, torsocks, tor-geoipdb, foxxy-core, foxxy-menu, foxxy-crypto
+Suggests: gnunet-gtk, gnunet, vidalia
+Description: AnonSurf
+ Anonymizaton toolkit for Foxxy Security OS
